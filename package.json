@@ -1,0 +1,37 @@
+{
+  "name": "grunt-mu-template",
+  "description": "Grunt mu-template",
+  "version": "0.1.0-SNAPSHOT",
+  "homepage": "https://github.com/mikaelkaron/grunt-mu-template",
+  "author": {
+    "name": "Mikael Karon",
+    "email": "mikael@karon.se"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikaelkaron/grunt-mu-template"
+  },
+  "bugs": {
+    "url": "https://github.com/mikaelkaron/grunt-mu-template/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mikael.mit-license.org"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies" : {
+    "mu-template" : "~1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
